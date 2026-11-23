@@ -1,11 +1,13 @@
 # Database Connections Manager Vixicom Test
 
-- Pimero descargar proyecto.
-- Extaer el proyecto del archivo comprimido.
-- Abra la terminal del computador.
-- Navegar entre la terminar hasta estar en la carpeta del proyecto.
+> **Portfolio demo:** the `portfolio-demo` branch includes a safe, browser-local connection inventory in `portfolio-demo/`. Hosts are fictional, credentials stay masked, and no outbound database connections are performed.
 
-- Seguir los siguientes paso del este video (link) => https://www.youtube.com/watch?v=Y5lRWyDfnE4
+## Original stack
 
-- Env. -> descargar y agregar adentro del proyecto (link) => https://drive.google.com/file/d/1rFDeWv7Pt8dx4nGwf9NzBXT2LzuSZXxO/view?usp=sharing
-- database.sqlite -> descargar y agregar a la carpeta database la cual esta dentro del proyecto (link) => https://drive.google.com/file/d/196VzcFFZaDJhbB6miqHvOVi0l25Jpj84/view?usp=sharing
+- Laravel / PHP
+- SQLite-compatible data layer
+- Blade templates and JavaScript
+
+## Portfolio safety
+
+The demo does not request or store database passwords. Local configuration must be created from `.env.example`; no environment files or database artifacts are distributed through this branch.
